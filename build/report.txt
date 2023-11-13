@@ -1,0 +1,22 @@
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:12:1: note: ***** Analysis failed with vector mode VOID
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:11:23: missed: couldn't vectorize loop
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:29: missed: not vectorized: complicated access pattern.
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:13:24: missed: couldn't vectorize loop
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:11: missed: not vectorized: complicated access pattern.
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 0 loops in function.
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:1: note: ***** Analysis failed with vector mode V4DF
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:1: note: ***** Skipping vector mode V32QI, which would repeat the analysis for V4DF
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:11:23: missed: couldn't vectorize loop
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:16:28: missed: not vectorized: complicated access pattern.
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:24: missed: couldn't vectorize loop
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:16:11: missed: not vectorized: complicated access pattern.
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 0 loops in function.
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:19:1: note: ***** Analysis failed with vector mode V4DF
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:19:1: note: ***** Skipping vector mode V32QI, which would repeat the analysis for V4DF
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:11:23: missed: couldn't vectorize loop
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:17:23: missed: not vectorized: complicated access pattern.
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:24: optimized: loop vectorized using 32 byte vectors
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:24: optimized: loop vectorized using 16 byte vectors
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:21:1: note: ***** Analysis failed with vector mode V4DF
+/global/homes/c/coderai/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:21:1: note: ***** Skipping vector mode V32QI, which would repeat the analysis for V4DF

@@ -77,7 +77,11 @@ int main(int argc, char** argv)
     double* Y = Xcopy + max_size;
     double* Ycopy = Y + max_size;
 
-           // load up matrics with some random numbers
+    const double million = 1000000;
+    const double billion = 1000000000;
+    const double bytes = 8;
+
+    // load up matrics with some random numbers
     /* For each test size */
     for (int n : test_sizes) 
     {
@@ -103,8 +107,10 @@ int main(int argc, char** argv)
 	std::chrono::duration<double> elapsedTime = end - start;
 
 	std::cout << "Time elapsed: " << elapsedTime.count() << std::endl;
+	std::cout << "The amoutn of MFLOP/s is: " << ((2*pow(n,2))/elapsedTime.count())/million << std::endl;
+	std::cout << "The memory bandwidth utilized in MB is: " << (((((2*n+2*pow(n,2))*8)/billion)/elapsedTime.count())/204.8) * 100<< "%" << std::endl;
 
-
+	printf("\n");
         // now invoke the cblas method to compute the matrix-vector multiplye
         reference_dgemv(n, Acopy, Xcopy, Ycopy);
 
